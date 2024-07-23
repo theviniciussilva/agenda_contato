@@ -16,7 +16,7 @@ form.addEventListener('submit', function(e){
 
 function adicionaLinha(){
 
-    if(nomes.includes(inputNome.value), telefones.includes(inputTelefone.value)){
+    if(nomes.includes(inputNome.value) || telefones.includes(inputTelefone.value)){
         alert('Esse nome ou telefone já foi cadastrado')
     }
     else{
